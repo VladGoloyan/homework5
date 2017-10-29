@@ -40,6 +40,8 @@ const pushPoints=function(c){
 const rand = function(num) {
 	return Math.floor(Math.random() * num) + 1;
 }
+
+// Function for number 2 is pointBounce
 const pointBounce = function(a){
 	points=[];
 	pushPoints(a);
